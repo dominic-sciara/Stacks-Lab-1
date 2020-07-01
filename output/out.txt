@@ -1,0 +1,154 @@
+Input: A
+Language 1: FAIL - Contains invalid character:  
+Language 2: FAIL - Contains invalid character:  
+Language 3: FAIL - Contains invalid character:  
+Language 4: FAIL - Contains invalid character:  
+Language 5: FAIL - Contains invalid character:  
+
+Input:AA BB
+Language 1: FAIL - Contains invalid character:  
+Language 2: FAIL - Contains invalid character:  
+Language 3: FAIL - Contains invalid character:  
+Language 4: FAIL - Contains invalid character:  
+Language 5: FAIL - Contains invalid character:  
+
+Input:AACBB
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - Contains invalid character: C
+Language 3: FAIL - Contains invalid character: C
+Language 4: FAIL - Contains invalid character: C
+Language 5: PASS!
+
+Input:ACB
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - Contains invalid character: C
+Language 3: FAIL - Contains invalid character: C
+Language 4: FAIL - Contains invalid character: C
+Language 5: PASS!
+
+Input:C
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - Contains invalid character: C
+Language 3: FAIL - Contains invalid character: C
+Language 4: FAIL - Contains invalid character: C
+Language 5: FAIL - There needs to be only A's before a C
+
+Input:BCA
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - String cannot start with a B
+Language 3: FAIL - String cannot start with a B
+Language 4: FAIL - String cannot start with a B
+Language 5: FAIL - String cannot start with a B
+
+Input:AAABBB
+Language 1: PASS!
+Language 2: PASS!
+Language 3: FAIL - 2 * (Number of A's) != Number of B's
+Language 4: PASS!
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:AB
+Language 1: PASS!
+Language 2: PASS!
+Language 3: FAIL - 2 * (Number of A's) != Number of B's
+Language 4: PASS!
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:
+Language 1: PASS!
+Language 2: FAIL - Empty string is invalid
+Language 3: FAIL - Empty string is invalid
+Language 4: FAIL - Empty string is invalid
+Language 5: FAIL - Empty string is invalid
+
+Input:ABABABA
+Language 1: FAIL - Number of A's != Number of B's
+Language 2: FAIL - A's can not occur after B's
+Language 3: FAIL - A's can not occur after B's
+Language 4: FAIL - Rounds of A's and B's are not the same
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:ABAB
+Language 1: PASS!
+Language 2: FAIL - A's can not occur after B's
+Language 3: FAIL - A's can not occur after B's
+Language 4: PASS!
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:BBAA
+Language 1: PASS!
+Language 2: FAIL - String cannot start with a B
+Language 3: FAIL - String cannot start with a B
+Language 4: FAIL - String cannot start with a B
+Language 5: FAIL - String cannot start with a B
+
+Input:BBBAA
+Language 1: FAIL - Number of A's != Number of B's
+Language 2: FAIL - String cannot start with a B
+Language 3: FAIL - String cannot start with a B
+Language 4: FAIL - String cannot start with a B
+Language 5: FAIL - String cannot start with a B
+
+Input:AAB
+Language 1: FAIL - Number of A's != Number of B's
+Language 2: FAIL - Number of A's != Number of B's
+Language 3: FAIL - 2 * (Number of A's) != Number of B's
+Language 4: PASS!
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:AAABBBBBB
+Language 1: FAIL - Number of A's != Number of B's
+Language 2: FAIL - Too many B's in one round
+Language 3: PASS!
+Language 4: PASS!
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:AABBCCD
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - Contains invalid character: C
+Language 3: FAIL - Contains invalid character: C
+Language 4: FAIL - Contains invalid character: C
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:ABCBA
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - Contains invalid character: C
+Language 3: FAIL - Contains invalid character: C
+Language 4: FAIL - Contains invalid character: C
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:ABBBA
+Language 1: FAIL - Number of A's != Number of B's
+Language 2: FAIL - Too many B's in one round
+Language 3: FAIL - There are too many B's
+Language 4: FAIL - Rounds of A's and B's are not the same
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:ABBA
+Language 1: PASS!
+Language 2: FAIL - Too many B's in one round
+Language 3: FAIL - A's can not occur after B's
+Language 4: FAIL - Rounds of A's and B's are not the same
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:ABAABBAAABBB
+Language 1: PASS!
+Language 2: FAIL - A's can not occur after B's
+Language 3: FAIL - A's can not occur after B's
+Language 4: FAIL - Rounds of A's and B's are not the same
+Language 5: FAIL - Need a C in-between the A's and B's
+
+Input:AAAACBBBB
+Language 1: FAIL - Contains invalid character: C
+Language 2: FAIL - Contains invalid character: C
+Language 3: FAIL - Contains invalid character: C
+Language 4: FAIL - Contains invalid character: C
+Language 5: PASS!
+
+Input:AABBBAABBB
+Language 1: FAIL - Number of A's != Number of B's
+Language 2: FAIL - Too many B's in one round
+Language 3: FAIL - A's can not occur after B's
+Language 4: PASS!
+Language 5: FAIL - Need a C in-between the A's and B's
+
